@@ -27,5 +27,26 @@ const myObj = {
 //function
 
 const myFunction = function(){
-    console.log("kajal")
+    // console.log("kajal")
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+                        // Memory
+
+let myName = "kajal"
+let anotherName= myName
+anotherName = "sharma"
+
+console.log(anotherName)
+
+
+
+//Heap memory  give original data 
+
+let userOne = {
+    email: "kajal@gmail.com"
+}
+let userTwo = userOne
+userTwo.email = "one@gmail.com"
+console.log(userTwo.email)
